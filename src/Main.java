@@ -98,7 +98,7 @@ public class Main {
                 " рублей\n\tЗарплата Дениса в месяц до повышения = " + Denis +
                 " рублей, годовой доход до повышения = " + BeforeDenisYears +
                 " рублей\n\tЗарплата Кристины в месяц до повышения = " + Kristina +
-                " рублей, годовой доход до повышения = " + BeforeKristinaYears + " рублей");
+                " рублей, годовой доход до повышения = " + BeforeKristinaYears + " рублей.");
         int MashaNew = (Masha * 10) / 100, DenisNew = (Denis * 10)/100, KristinaNew = (Kristina * 10) / 100;
         int AfterMahaMonth = MashaNew + Masha, AfterDenisMonth = DenisNew + Denis, AfterKristinaMonth = KristinaNew +
                 Kristina;
