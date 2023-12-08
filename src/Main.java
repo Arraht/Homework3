@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
         // Задача №1:
-        int Users = 5;
+        int users = 5;
         byte oneUserHours = 2;
         short twoUserHours = 6;
         long threeUserHours = 4L;
         float fourUserHours = 2.5f;
         double fiveUserHours = 3.5;
-        System.out.println("Задача № 1:\n" + "\tЗначение переменной с типом int равно: " + Users +
+        System.out.println("Задача № 1:\n" + "\tЗначение переменной с типом int равно: " + users +
                 "\n\tЗначение переменной с типом byte равно: " + oneUserHours +
                 "\n\tЗначение переменной с типом short равно: " + twoUserHours +
                 "\n\tЗначение переменной с типом long равно: " + threeUserHours +
