@@ -83,12 +83,12 @@ public class Main {
         short oneWeightLossGrams = 250, twoWeightLossGrams = 500;
         int resultOneWeightLossGrams = (targetWeightLossKilograms * 1000) / oneWeightLossGrams;
         int resultTwoWeightLossGrams = (targetWeightLossKilograms * 1000) / twoWeightLossGrams;
-        int AverageResult = (resultOneWeightLossGrams + resultTwoWeightLossGrams) / 2;
+        int averageResult = (resultOneWeightLossGrams + resultTwoWeightLossGrams) / 2;
         System.out.println("\nЗадача № 7:\n\tНужно сбросить " + targetWeightLossKilograms +
                 " килограмм\n\tПри потере веса по " + oneWeightLossGrams + " грамм, понадобится " +
                 resultOneWeightLossGrams + " дней на похудение\n\tПри потере веса по " + twoWeightLossGrams +
                 " грамм, понадобится " + resultTwoWeightLossGrams +
-                " дней на похудение\n\tВ среднем темпе понадобится " + AverageResult + " день на похудение");
+                " дней на похудение\n\tВ среднем темпе понадобится " + averageResult + " день на похудение");
         // Задача № 8:
         int masha = 67760, denis = 83690, kristina = 76230;
         int beforeMashaYears = masha * 12, beforeDenisYears = denis * 12,
